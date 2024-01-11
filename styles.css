@@ -1,0 +1,56 @@
+body{
+    background-color: aquamarine;
+}
+
+.titulo{
+font-size: 1.5em;
+color: brown;
+}
+
+.tamañoImg{
+    margin-bottom: 1em;
+    width: 200px;
+    height: 200px;
+}
+
+.cards{
+   border: 3px solid pink;
+   width: fit-content;
+   padding: 1em 1em 1em 1em;
+   border-radius: 10%;
+   transition: 1s;
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   align-items: center;
+
+}
+.cards:hover{
+    background-color: white;
+}
+
+#principal {
+    font-size: 2em;
+}
+
+#titulosEspecificos{
+    width: 70vw;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedorTarjetas{
+    background-color: rgb(144, 104, 182);
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(152, 42, 60);
+    border-radius: 15px;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
